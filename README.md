@@ -17,7 +17,7 @@ The New Relic Riak Agent serves node statistics of a Riak Node to the New Relic 
    * Navigate to the folder that the plugin is downloaded to.
    * Run `bundle install`
    * Copy ```config/newrelic_plugin.example.yml``` to ```config/newrelic_plugin.yml```
-   * Edit ```config/newrelic_plugin.yml```, replacing LICENCE with your New Relic License key.
+   * Edit ```config/newrelic_plugin.yml```, replacing `LICENSE` with your New Relic License key.
    * Edit the riak_agent.rb file and change the GUID to something unique to your application (it's set by default to 'com.basho.riak_agent')
    * Run `bundle exec ./riak_agent.rb` or `./riak_agent.rb` to start.
  
